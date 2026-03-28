@@ -1,0 +1,47 @@
+{
+  "skill_name": "zaia",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Mamy nową inicjatywę - wdrożenie systemu powiadomień dla klientów. Aktualnie klient dowiaduje się o statusie zamówienia tylko logując się do panelu. Chcemy żeby dostawał SMS i email na każdym etapie: przyjęcie zamówienia, kompletacja, wysyłka, dostarczenie. Sponsor to dyrektor e-commerce Marek Kowalski. Zrób kwalifikację inicjatywy i rozpocznij discovery - przygotuj kartę inicjatywy, mapę interesariuszy i zidentyfikuj luki informacyjne.",
+      "expected_output": "Initiative card with classification, stakeholder map as Mermaid diagram, information gaps document, all in Polish, saved as files in a structured directory",
+      "files": [],
+      "expectations": [
+        "Creates an initiative-card.md file with change classification, complexity, and scope",
+        "Creates a stakeholder-map.md with Mermaid diagram showing stakeholder relationships",
+        "Creates an information-gaps.md identifying unknowns and validation approaches",
+        "All artifacts are in Polish matching the user's language",
+        "Quality Gate 1 checklist is presented to the analyst",
+        "Files are organized in a phase-0/ and phase-1/ directory structure"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "We have an AS-IS process for employee onboarding that's manual and error-prone: HR creates a ticket, IT sets up accounts one by one (AD, email, VPN, app access), manager assigns a buddy, and facilities prepares the workspace. Average time is 5 days, with 30% of new hires missing at least one system access on day 1. Design a TO-BE automated onboarding process, create the domain model, write functional requirements with user stories, and build a traceability matrix.",
+      "expected_output": "TO-BE BPMN process with Mermaid visualization, domain model ERD, functional requirements with user stories in GWT format, traceability matrix, all as separate files",
+      "files": [],
+      "expectations": [
+        "Creates a TO-BE process model with both BPMN XML and Mermaid visualization",
+        "The TO-BE process addresses the 5-day delay and 30% missing access issues",
+        "Creates a domain model as Mermaid ERD with entities like Employee, Account, AccessRequest",
+        "User stories follow Given-When-Then format with acceptance criteria",
+        "Traceability matrix links business needs to requirements to stories",
+        "Files are organized by phase (phase-2/ and phase-3/)"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "I have these requirements for a document approval workflow: 1) Authors upload documents for review, 2) Reviewers can approve, reject, or request changes, 3) Documents need 2 approvals to be published, 4) Rejected documents go back to author with comments, 5) Published documents get versioned and archived. Transform these into a prioritized product backlog with epics, features, user stories, dependencies, and acceptance criteria. Also do a risk assessment.",
+      "expected_output": "Structured backlog with epics/features/stories hierarchy, dependency graph as Mermaid, risk register, all as files",
+      "files": [],
+      "expectations": [
+        "Creates epics.md with clearly defined epic boundaries",
+        "Creates user-stories.md with GWT format and acceptance criteria for each story",
+        "Creates dependencies.md with Mermaid dependency graph showing story ordering",
+        "Creates risk-register.md with identified risks, likelihood, impact, and mitigations",
+        "Stories are prioritized using MoSCoW or similar method",
+        "Each story traces back to the original requirements"
+      ]
+    }
+  ]
+}
