@@ -1,13 +1,11 @@
 ---
 name: zaia
-description: >
-  Use for business analysis and system analysis work. MUST trigger when the user wants to: analyze interviews
-  or documents for findings, model AS-IS/TO-BE processes, write requirements or NFR catalogs, map stakeholders,
-  create domain models, generate user stories with acceptance criteria, do gap analysis, run quality gate reviews,
-  conduct lessons learned, maintain decision registers, assess artifact quality, qualify initiatives, or build
-  backlogs from analysis. Trigger for Polish equivalents (analiza wymagań, interesariusze, karta inicjatywy,
-  wymagania niefunkcjonalne). Trigger when user mentions ZAIA. Do NOT trigger for coding, debugging, database
-  refactoring, standalone diagram generation, presentations, or other pure software engineering tasks.
+description: >-
+  Business and system analysis: analysis of interviews and documents, AS-IS/TO-BE process modelling,
+  requirements and NFR catalogs, stakeholder maps, domain models, user stories with acceptance criteria, gap
+  analysis, quality gate reviews, decision registers, backlogs built from analysis. Also triggers on "ZAIA",
+  "analiza wymagań", "interesariusze", "karta inicjatywy", "wymagania niefunkcjonalne". NOT for coding,
+  debugging or standalone diagram generation.
 ---
 
 # ZAIA — AI Agent Team for Business-System Analysts
